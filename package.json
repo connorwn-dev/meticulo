@@ -4,10 +4,12 @@
   "version": "0.1.0",
   "description": "Meticulo plumbing — under construction site",
   "scripts": {
-    "dev": "serve .",
-    "preview": "serve ."
+    "dev": "serve public",
+    "preview": "serve public",
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
-    "serve": "^14.2.4"
+    "serve": "^14.2.4",
+    "wrangler": "^4.105.0"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "meticulo",
+  "compatibility_date": "2026-06-29",
+  "workers_dev": false,
+  "assets": {
+    "directory": "./public"
+  },
+  "routes": [
+    {
+      "pattern": "meticulo.co.uk",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.meticulo.co.uk",
+      "custom_domain": true
+    }
+  ]
+}
