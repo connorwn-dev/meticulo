@@ -1,0 +1,13 @@
+{
+  "name": "meticulo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Meticulo plumbing — under construction site",
+  "scripts": {
+    "dev": "serve .",
+    "preview": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
