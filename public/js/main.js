@@ -16,3 +16,11 @@ if (navToggle && siteNav) {
     });
   });
 }
+
+const headerContact = document.querySelector(".site-header__contact");
+if (headerContact && siteNav) {
+  headerContact.addEventListener("click", () => {
+    siteNav.classList.remove("is-open");
+    if (navToggle) navToggle.setAttribute("aria-expanded", "false");
+  });
+}
